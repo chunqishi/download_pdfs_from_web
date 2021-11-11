@@ -1,1 +1,2 @@
+http://cs231n.stanford.edu/schedule.html
 https://grape.ics.uci.edu/wiki/asterix/raw-attachment/wiki/cs190-2020-winter/

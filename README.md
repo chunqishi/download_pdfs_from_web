@@ -71,4 +71,5 @@ Copyright (c) 2021 Chunqi Shi (scq830@163.com)
 ## Changelog
 
 ### Version 0.1 2021-11-11
+Proxy is not supported yet.
 
