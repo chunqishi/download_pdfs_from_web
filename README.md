@@ -19,6 +19,10 @@ An introduction about tools useful for grab all PDF files from one URL link or w
 
 ### Solution 2 
 
+Python package BeautifulSoup provides easy way to filter all links. 
+and package urllib or requests provide easy way to download a url link. 
+Make them work together can build cool python download tool pyget. 
+
 * Install [python](https://docs.anaconda.com/anaconda/install/index.html) and install [pip](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments.html) package 
 * Download this tool
 ```bash
@@ -33,6 +37,18 @@ python pyget.py
 
 
 ### Solution 3 (Strong Recommended)
+
+
+Wget is very popular linux download tools. 
+It has wget.exe for windows version too. 
+It provided downloading only certain file types using: 
+```bash
+wget.exe --continue **--recursive** --level=2 **--accept .pdf** $URL
+```
+It is much power to make a mirror:
+```bash
+wget --mirror -p --convert-links -P ./$LOCAL_DIR $URL
+```
 
 * Download this tool
 ```bash
